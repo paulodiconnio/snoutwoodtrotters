@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snoutwood Trotters</title>
+    <link href='http://fonts.googleapis.com/css?family=Arvo:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <meta charset="utf-8">
+</head>
+<body>
+  <div class="container">
+    <header class="clearfix">
+      <div id="top-section" class="clear">
+        <div class="logo">
+          <img src="images/logo.png"/>
+          <!--<h3>Fortnightly Farm-Bred Pork Sale</h3>-->
+          <p>Laburnum Lane, Great Sankey<br>Warrington, WA5 3LE</p>
+          <h2>Next sale: <i>Saturday 24th October</i><br><!--(<span class="next-sale"></span>)</i></h2>-->
+        </div>
+      </div>
+
+      <div class="sticky-nav-wrapper">
+        <div class="nav" id="navbar">
+          <ul>
+            <!--<li><a href="index.html"><img src="images/Snoutwood trotters-02.png" onmouseover="this.src='images/Snoutwood-home.png'" onmouseout="this.src='images/Snoutwood trotters-02.png'"/></a></li>-->
+            <li><a href="#sales"><img src="images/Snoutwood trotters-28.png" onmouseover="this.src='images/Snoutwood trotters-03.png'" onmouseout="this.src='images/Snoutwood trotters-28.png'"/></a></li>
+            <li><a href="#findUs"><img src="images/Snoutwood-findus.png" onmouseover="this.src='images/Snoutwood trotters-07.png'" onmouseout="this.src='images/Snoutwood-findus.png'"/></a></li>
+            <li><a href="#recipes"><img src="images/Snoutwood-recipes.png" onmouseover="this.src='images/Snoutwood trotters-05.png'" onmouseout="this.src='images/Snoutwood-recipes.png'"/></a></li>
+            <li><a href="#booking"><img src="images/Snoutwood trotters-29.png" onmouseover="this.src='images/Snoutwood trotters-06.png'" onmouseout="this.src='images/Snoutwood trotters-29.png'"/></a></li>
+            <!--<li><a href="blog.html#navbar"><img src="images/Snoutwood trotters-06.png" onmouseover="this.src='images/Snoutwood-blog.png'" onmouseout="this.src='images/Snoutwood trotters-06.png'"/></a></li>-->
+            
+          </ul>
+        </div>
+      </div>
+    </header>
+
+
+       <!--<div class="images">
+            <div class="quote">
+                <h1>WELCOME TO SNOUTWOOD TROTTERS</h1> 
+            </div>
+        <!--JQuery Arrays-->
+        </div>
+
+    <div class="intro">
+    <h1>Snoutwood Trotters</h1>
+    <p>Here at Snoutwood Trotters, we keep pedigree Gloucestershire Old Spot pigs, a traditional rare breed, on our small family run farm in Great Sankey, Warrington.</p> 
+    <p>All of our pigs are free range and outdoor reared, spending their entire lives outdoors in their natural environment. This enables them to move, forage and interact with each other in the fresh air, just the way pigs should be able to.</p>
+    <p>We believe that this contributes in creating the most delicious Snoutwood pork produce, which really does speak for itself. So why not come along and try it for yourselves, meet our pigs and all of our other animals too</p>
+    <p>We look forward to sharing our hobby with you.</p> 
+    <p>Keep it Snoutwood!</p>
+    <p>Liam & Rebecca. X</p>
+</div>
+
+
+<div class="sales" id="sales">
+  <h2>Upcoming Sales</h2>
+  <p>We run our Free-Range Pork Sale every fortnight on a Saturday, 10am until 2pm.</p>
+  <p>Here are our next sales:</p>
+    <ul>
+      <li>Saturday 24th October</li>
+      <li>Saturday 7th November</li>
+      <li>Saturday 21st November</li>
+      <!--<li>Saturday 15th August</li>-->
+    </ul
+
+     <div class="products" id ="product">
+  <p>All of our pigs are born and raised here on our farm, and are 100% free range , with plenty of space to move, forage and do exactly what pigs like to do.</p>
+  <p>We believe that our produce speaks for itself.</br>For a full product price list, download the PDF below.<p>
+  
+      <a href="pdfs/price-list.pdf" target="_blank">Download PDF</a>
+  
+</div>
+ </div>
+</div>
+
+  <div class="map" id="findUs">
+     <h2>Find us!</h2>
+     <p>Snoutwood Trotters is part of Laburnum Farm. We are on Laburnum Lane just off Liverpool Road <b>(A57)</b>, which can be reached by the <b>M62</b>, <b>junction 7.</b></p>
+
+     <p><i>Laburnum Farm, Laburnum Lane, Great Sankey, Warrington, WA5 3LE</i></p> 
+ 
+    <div id="map_canvas">
+  </div>
+
+     
+
+
+    <p>If you still need help getting here, then enter your postcode below and Google Maps will lead you right to our barn door!</p>
+
+    <form class ="" id="form" action="http://maps.google.com/maps" method="get" target="_blank">
+   <input id="postcode" type="text" name="saddr" placeholder="Enter Postcode"/>
+   <br/>
+   <input type="hidden" name="daddr" value="WA5 3LE"/>
+   <input id="getdirections" class="button" type="submit" value="Get directions"/>
+</div>
+
+</form>
+
+
+
+ <div class="recipes" id="recipes">
+  <h2>Recipe Ideas</h2>
+    <p>Needless to say, Snoutwood Pork can be the key ingredient to some incredibly tasty meals. We're regularly trying out new recipes and so are our customers.</p>
+    <p>Here are a few of our favourites for you to try out at home:</p>
+
+      <div class="recipe-images">
+        <div class="image-wrapper">
+          <a href="pdfs/sausagerolls.pdf" target="_blank">
+            <img src="http://i1055.photobucket.com/albums/s501/paulodiconnio/sausageroll1_zps6e77de34.jpg">
+            <h3>Snoutwood Sausage Rolls</h3>
+          </a>
+        </div>
+
+        <div class="image-wrapper">
+          <a href="pdfs/gammon.pdf" target="_blank">
+            <img src="http://i1055.photobucket.com/albums/s501/paulodiconnio/food4_zps6a523150.jpg">
+            <h3>Coca-Cola Gammon</h3>
+          </a>
+        </div>
+
+        <!--<div class="image-wrapper">
+            <img src="http://i1055.photobucket.com/albums/s501/paulodiconnio/food7_zpsd10c146f.jpg">
+            <h3>Bacon Wrapped Stuffing</h3>
+        </div>-->
+      </div>
+
+
+    <p><i>If you've made something amazing with Snoutwood Pork recently, then let us know via email and we'll try and post it on the website!</i></p>
+ </div>
+
+
+<div class="booking" id="booking">
+
+  <div class="enquiry overlay-content">
+     <form id="form-div" action="http://formspree.io/snoutwoodtrotters@hotmail.co.uk"
+        method="POST">
+
+      <h2>Booking Enquiries</h2>
+      <p>For any Snoutwood queries you may have (including BBQ & Hog Roast catering) contact us using the form below.</p>
+
+      <select>
+          <option value ="select">Select Enquiry</option>
+          <option value ="sale">Shop/Sale Days</option>
+          <option value ="catering">Events Catering</option>
+          <option value ="other">Other</option>
+      </select>
+
+      <input type="text" name="yourName" placeholder="Name" id="yourName" required>
+
+      <input type="email" name="_replyto" placeholder="e-mail" id="_replyto" required>
+
+      <input type="phone" name="phone" placeholder="Phone number (optional)" id="_replyto" optional>
+
+      <textarea name="enquiry" style= "height:200px; width:400px" placeholder="Your enquiry:"id="enquiry" required></textarea>
+
+      <input class="submit-enquiry button" type="submit" value="Send">
+      </form>
+
+  </div>
+  <div class="overlay"></div>
+</div>
+
+
+
+<div class="about" id="ourStory">
+<p><i>By now you know the basics, what we sell, where we sell it and when. For those of you keen on learning more about Snoutwood and how we got started, then keep on scrollin'!</i></p><hr>
+      <p class="liam">Snoutwood Trotters is run and managed by boyfriend and girlfriend, Liam & Rebecca.</br> Here is...</p>
+      <h2>Our Story</h2>
+
+<section id="cd-timeline" class="cd-container">
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+        <!--<img src="images/Snoutwood trotters-23.png">-->
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>A piggy present</h2>
+        <p>Back in 2009, on Liam’s 21st birthday, Rebecca’s Dad Walter asked Liam what he would like for as a gift, to which he responded “pigs”. Nobody believed that he was serious (it's not a typical answer from a 21 year old). However, he was told that providing he fenced the land and built a suitable pig ark he would be able to buy 2 small pigs to be kept in a spare piece of woodland on the small holding.</p>
+        <span class="cd-date"><img src=></span>
+
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie">
+        <!--<img src="img/cd-icon-movie.svg" alt="Movie">-->
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Salt &amp; Pepper</h2>
+        <p>Much to everyone’s amazement, Liam arrived the next day, spade in one hand and spirit level in the other, ready to begin. We called in the help of some fabulous friends and family to help build our first pig ark. After some real hard work making the woodland as pig proof as possible, we collected our first two pigs, Salt and Pepper.</p>
+        <!--<span class="cd-date"><img src="images/homepage3.jpg"</span>-->
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-picture">
+        <!--<img src="img/cd-icon-picture.svg" alt="Picture">-->
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Pigging out</h2>
+        <p>After our first two pigs, we decided that pig keeping was inevitable and we wanted to breed our own litters of piglets on the farm. We travelled across the country searching for the best Gloucester Old Spot breeding stock, gaining knowledge along the way, meeting some fantastic people and friends for life.</p>
+        <span class="cd-date"></span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+        <!--<img src="img/cd-icon-location.svg" alt="Location">-->
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Where we are now</h2>
+        <p>Snoutwood Trotters has developed and improved over time thanks to sheer hard work, determination and most importantly our passion for keeping happy and healthy pigs. We have already been recognised in the Top 3 in our region at the National Sausage Competition with our Snoutwood Pork and Black Pudding sausage entry, and believe that we have one of the finest free range pedigree Gloucestershire Old Spot pigs herds in the country!</p>
+        <span class="cd-date"></span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-location">
+        <!--<img src="img/cd-icon-location.svg" alt="Location">-->
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Our Customers</h2>
+        <p>Our snoutwood customer base has strengthened over time as we strongly believe that we have the best, loyal customers that we could possibly ask for. Not only are they our customers, but friends too. We are overwhelmed at the support and love that our venture has generated and never envisioned that we would be where we are today.</p>
+        <span class="cd-date"></span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+
+    <div class="cd-timeline-block">
+      <div class="cd-timeline-img cd-movie">
+        <!--<img src="img/cd-icon-movie.svg" alt="Movie">-->
+      </div> <!-- cd-timeline-img -->
+
+      <div class="cd-timeline-content">
+        <h2>Keep it Snoutwood!</h2>
+        <p>We would love you to come and share in our passion and reap the benefits of delicious, fresh, free range pork produce.<br/> We look forward to meeting you all soon.<br/> Keep it Snoutwood!</p>
+        <span class="cd-date"></span>
+      </div> <!-- cd-timeline-content -->
+    </div> <!-- cd-timeline-block -->
+  </section> <!-- cd-timeline -->
+
+</div>
+    
+        <footer class="footer-distributed">
+
+
+      <div class="footer-left">
+
+        <img src="images/logo.png">
+
+        <p>
+          <ul>
+          <li><a href="snoutwoodtrotters@hotmail.co.uk">email: snoutwoodtrotters@hotmail.co.uk</a></li>
+          <li>phone: 07791020980 / 07811132619</li>
+          <li>address: Laburnum Lane, Great Sankey,</br> Warrington WA5 3LE</li>
+          </ul>
+        </p>
+
+        <p class="footer-company-name">Snoutwood Trotters &copy; 2009</p>
+      </div>
+
+      <div class="footer-center">
+        <h2>Join Our Mailing List</h2>
+
+        <h2>Get all the latest news from the farm including our upcoming sale
+        dates.</h2>
+
+        <h3>No spam. Just ham.</h3>
+
+        <div id="mc_embed_signup">
+            <form action=
+            "http://snoutwoodtrotters.us3.list-manage2.com/subscribe/post?u=60fca7efda930eb4344a98a0c&amp;id=2c508cfe49"
+            class="validate" id="mc-embedded-subscribe-form" method="post"
+            name="mc-embedded-subscribe-form" novalidate="" target="_blank">
+                <div class="mc-field-group">
+                    <input class="required email" id="mce-EMAIL" name="EMAIL"
+                    placeholder="Enter Email" type="email" value="">
+                </div>
+
+                <div class="clear" id="mce-responses">
+                    <div class="response" id="mce-error-response" style=
+                    "display:none"></div>
+
+                    <div class="response" id="mce-success-response" style=
+                    "display:none"></div>
+                </div>
+
+                <div style="position: absolute; left: -5000px;">
+                    <input name="b_60fca7efda930eb4344a98a0c_2c508cfe49" type=
+                    "text" value="">
+                </div>
+
+                <div class="clear">
+                <span id="change">
+                    <input class="submitbutton button" id="mc-embedded-subscribe"name=
+                    "subscribe" type="submit" value="Subscribe">
+                </span>
+                </div>
+            </form>
+      </div>
+    </div>
+
+      <div class="footer-right">
+
+          <h3>Get Social</h3>
+        <div class="footer-icons">
+              <li><a href="https://www.facebook.com/pages/Snoutwood-Trotters/179045218844748?fref=ts"target="_blank"><img src="images/facebook.png"></a></li>
+              <li><a href="https://twitter.com/Snoutwood" target="_blank"><img src="images/twitter.png"></a></li>
+              <li><a href="mailto:snoutwoodtrotters@hotmail.co.uk"><img src="images/mail.png"></a></li>
+
+      </div>
+    </div>
+
+        <div class="outro">
+
+        <h3><a href="#0" class="cd-top">Back to Top</a></h3>
+
+        <p><i>Website made with love by Liam's old neighbour, <a href="https://twitter.com/paulodiconnio" target="blank">Paul</a></i>.</p>
+      </div>
+
+
+
+    </footer>
+
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/map.js"></script>
+    <script type="text/javascript" src="js/moment.min.js"></script>
+    <script type="text/javascript">
+        var next = moment("2015-07-04T10:00:00.937").fromNow();
+        $(".next-sale").text(next);
+    </script>
+</body>
+</html>
